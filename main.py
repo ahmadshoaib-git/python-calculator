@@ -1,22 +1,3 @@
-# print("Hello Python world!")
-# a = 42
-# print(a)
-# b = 3.15
-# print(b)
-# c = 1 + 2j
-# print(c)
-# d = "doll"
-# print(d)
-
-# names_list: list[str] = ['abc', 'efg', 'hij']
-# print(names_list)
-
-# number_list: list[int] = [1,2,3]
-# print(number_list)
-
-# mixed_list: list[int | str| bool] = [1,"2",False]
-# print(mixed_list)
-
 def add(operand1, operand2):
     return operand1 + operand2
 
