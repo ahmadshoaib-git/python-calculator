@@ -11,7 +11,7 @@ def multiply(operand1, operand2):
     return operand1 * operand2
 
 def operations(operand1, operand2, operator):
-    equation = str(operand1) + " " + str(operator) + " " + str(operand2) + " = "    
+    equation = f"{operand1} {operator} {operand2} = "   
     if operator == '+':
         print(equation+str(add(operand1,operand2)))
     elif operator == '-':
